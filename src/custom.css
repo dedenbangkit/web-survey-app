@@ -1,0 +1,65 @@
+.map-container {
+    height: calc(100% - 56px);
+    width: 100%;
+}
+
+#map {
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#detail-info {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 0px !important;
+    display: none;
+    padding: 20px;
+}
+
+#detail-info h1 {
+    font-size: 12px;
+}
+
+#detail-info p.lead {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#detail-info .victim,
+#detail-info .address,
+#detail-info .occured,
+#detail-info .reported {
+    font-weight: 600;
+}
+#detail-info .btn-sm {
+    position:absolute;
+    bottom:20px;
+}
+
+.dropdown-item {
+    font-size: 9px;
+}
+
+.navbar-nav .dropdown-menu {
+    max-height: 500px;
+    overflow: scroll;
+    bottom: 62px;
+}
+
+@media (max-width:768px) {
+    .map-container {
+        height: 100%;
+        width: 100%;
+    }
+    nav.navbar.fixed-bottom.navbar-expand-sm {
+        display: none;
+    }
+}
