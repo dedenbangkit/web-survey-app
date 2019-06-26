@@ -5,7 +5,7 @@
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Instances</a>
         <div class="dropdown-menu" aria-labelledby="dropdown10">
           {% for instance in instances%}
-          <a class="dropdown-item" href="#">{{instance["instance"]}}</a>
+          <a class="dropdown-item showing-modal" href="#" data-id="{{instance["instances"]}}">{{instance["instances"]}}</a>
           {% endfor %}
         </div>
       </li>

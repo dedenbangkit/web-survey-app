@@ -2,6 +2,11 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
+    watch: true,
+    watchOptions: {
+        aggregateTimeout: 300,
+        poll: 1000
+    },
     mode: "production",
     entry: {
         main:"./src/app.js"
