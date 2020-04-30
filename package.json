@@ -33,7 +33,7 @@
   "devDependencies": {
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "node-sass": "^4.9.0",
     "resolve-url-loader": "^2.3.0",
     "sass-loader": "^7.0.1",
